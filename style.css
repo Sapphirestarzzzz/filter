@@ -1,0 +1,19 @@
+.btn-success:hover{
+    background-color: cadetblue;
+    }
+    
+    canvas{
+    animation-name:colourtest;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    margin-top: 40px;
+    }
+    
+    @keyframes colourtest{
+    0%{box-shadow: 1px 1px 38px rgb(199, 6, 6);}
+    25%{box-shadow: 1px 1px 38px rgb(255, 136, 176);}
+    50%{box-shadow: 1px 1px 38px rgb(116, 2, 230);}
+    75%{box-shadow: 1px 1px 38px rgb(44, 204, 206);}
+    100%{box-shadow: 1px 1px 38px rgb(0, 4, 118);}
+    }
+    
